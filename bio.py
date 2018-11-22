@@ -1,4 +1,4 @@
-#lab6q1 Annie Yang 30034152
+
 from Bio.Blast import NCBIWWW
 from Bio.Blast import NCBIXML
 import matplotlib.pyplot as plt
@@ -54,8 +54,6 @@ ax.bar(x,y,width=1,color=['green','blue'])
 ax.set_xticks([0,1])
 plt.show()
 
-
-#bonus question 18
 fig3=plt.figure()
 plt.boxplot(asize)    
 plt.ylabel('Count')
